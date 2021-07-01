@@ -7,9 +7,10 @@ html {
 	box-sizing: inherit;
 }
 body {
-    font-family: 'Lato', sans-serif;
-    line-height: 20px;
-    font-size: 15px;
+    font-family: 'Arial', serif;
+	font-weight: 400;
+	font-size: 20px;
+	color: $text;
 }
 a {
     display: inline-block;
@@ -28,4 +29,10 @@ li {
     max-width: 1030px;
     margin: 0 auto;
     padding: 0 15px;
+}
+.content {
+	flex: 1 0 auto;
+}
+.footer {
+	flex: 0 0 auto;
 }
