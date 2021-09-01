@@ -96,6 +96,16 @@
     background-color: #fff;
     transition: all .3s;
 }
+.header__menu-btn {
+    width: 30px;
+    display: none;
+}
+.header__menu-row {
+    max-width: 100%;
+    background-color: #000;
+    height: 4px;
+    margin-bottom: 4px;
+}
 //end header
 //start book
 .book {
@@ -210,13 +220,16 @@
     background-color: $bg;
     padding: 50px 0px 30px;
 }
+.slider__title-box {
+    color: $text;
+}
 .slider__item {
     min-height: 440px;
     background-position: top center;
     background-size: cover;
     background-repeat: no-repeat;
 }
-.services__text {
+.slider__text {
     margin-bottom: 20px;
 }
 .slick-dots { 
@@ -276,6 +289,7 @@
         font-size: 15px;
         line-height: 20px;
         margin-bottom: 25px;
+        padding-right: 15px;
     }
     &__link {
         padding-left: 15px;
@@ -485,3 +499,5 @@
     max-width: 650px;
 }
 //end footer
+
+@import 'media';
